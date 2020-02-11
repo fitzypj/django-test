@@ -117,6 +117,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = '/home/C00217942DB/django-test/static'
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
